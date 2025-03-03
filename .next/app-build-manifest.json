@@ -1,0 +1,97 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/loading.js"
+    ],
+    "/(routes)/select/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/select/page.js"
+    ],
+    "/(routes)/investor/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/page.js"
+    ],
+    "/(routes)/investor/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/investor/layout.css",
+      "static/chunks/app/(routes)/investor/layout.js"
+    ],
+    "/(routes)/investor/(routes)/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/(routes)/profile/page.js"
+    ],
+    "/(routes)/investor/(routes)/startups/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/(routes)/startups/page.js"
+    ],
+    "/(routes)/investor/(routes)/companies/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/(routes)/companies/page.js"
+    ],
+    "/(routes)/investor/(routes)/investments/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/(routes)/investments/page.js"
+    ],
+    "/(routes)/investor/(routes)/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/investor/(routes)/dashboard/page.js"
+    ],
+    "/(routes)/company/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/page.js"
+    ],
+    "/(routes)/company/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/company/layout.css",
+      "static/chunks/app/(routes)/company/layout.js"
+    ],
+    "/(routes)/company/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/profile/page.js"
+    ],
+    "/(routes)/company/your-company/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/your-company/page.js"
+    ],
+    "/(routes)/company/investors/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/investors/page.js"
+    ],
+    "/(routes)/company/equity-holder/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/equity-holder/page.js"
+    ],
+    "/(routes)/company/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/company/dashboard/page.js"
+    ]
+  }
+}

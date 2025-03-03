@@ -1,0 +1,12 @@
+{
+  "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
+  "/page": "app/page.js",
+  "/(routes)/select/page": "app/(routes)/select/page.js",
+  "/(routes)/company/profile/page": "app/(routes)/company/profile/page.js",
+  "/(routes)/company/dashboard/page": "app/(routes)/company/dashboard/page.js",
+  "/(routes)/investor/page": "app/(routes)/investor/page.js",
+  "/(routes)/investor/(routes)/investments/page": "app/(routes)/investor/(routes)/investments/page.js",
+  "/(routes)/investor/(routes)/companies/page": "app/(routes)/investor/(routes)/companies/page.js",
+  "/(routes)/investor/(routes)/startups/page": "app/(routes)/investor/(routes)/startups/page.js",
+  "/(routes)/investor/(routes)/profile/page": "app/(routes)/investor/(routes)/profile/page.js"
+}
