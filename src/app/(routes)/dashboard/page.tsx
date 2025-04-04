@@ -30,7 +30,7 @@ const Page = () => {
       if (userPermissions.permissions.includes('user:investor')) {
         if (router) {
           // Example: navigating to the dashboard
-          router.push('/investor');
+          router.push('/investor/dashboard');
         }
       } else if(userPermissions.permissions.includes('user:company')){
         if (router) {
