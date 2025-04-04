@@ -26,8 +26,8 @@ export async function middleware(request: NextRequest) {
 
   // Redirect based on user permissions only if they are not on the correct path already
   if (permissions) {
-    if (permissions.permissions.includes('user:investor') && currentPath !== '/investor') {
-      return NextResponse.redirect(new URL('/investor', request.url));
+    if (permissions.permissions.includes('user:investor') && currentPath !== '/investor/dashboard') {
+      return NextResponse.redirect(new URL('/investor/dashboard', request.url));
     }
 
     if (permissions.permissions.includes('user:company') && currentPath !== '/company') {
