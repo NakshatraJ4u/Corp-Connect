@@ -115,47 +115,48 @@ const Page = () => {
 
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    if (!companyImage) {
-      toast("Please Upload Logo", {
-        description: "Company logo is required, Pleade upload the image.",
-        action: {
-          label: "Ok",
-          onClick: () => console.log("Company Registered"),
-        },
-      });
-    } else {
-      await createCompany({
-        email: userEmail ?? "", // Ensure email is always a string
-        companyname: form.getValues("companyName"),
-        businessType: form.getValues("businessType"),
-        companyServices: form.getValues("companyServices"),
-        description: form.getValues("description"),
-        website: form.getValues("website"),
-        companyEmail: form.getValues("companyEmail"),
-        companyLogo: companyImage ?? "",
-        grossMargin: form.getValues("grossMargin"),
-        netProfitMargin: form.getValues("netProfitMargin"),
-        operatingMargin: form.getValues("operatingMargin"),
-        freeCashFlow: form.getValues("freeCashFlow"),
-        burnRate: form.getValues("burnRate"),
-        latestValuation: form.getValues("latestValuation"),
-        ebitda: form.getValues("ebitda"),
-        projectedValuation: form.getValues("projectedValuation"),
-        currentRevenue: form.getValues("currentRevenue"),
-        revenueIncreased: form.getValues("revenueIncreased"),
-        companyVerified: "false", // Example value (set this based on your logic)
-      });
+    // if (!companyImage) {
+    //   toast("Please Upload Logo", {
+    //     description: "Company logo is required, Pleade upload the image.",
+    //     action: {
+    //       label: "Ok",
+    //       onClick: () => console.log("Company Registered"),
+    //     },
+    //   });
+    // } else {
+      
+    // }
+    await createCompany({
+      email: userEmail ?? "", // Ensure email is always a string
+      companyname: form.getValues("companyName"),
+      businessType: form.getValues("businessType"),
+      companyServices: form.getValues("companyServices"),
+      description: form.getValues("description"),
+      website: form.getValues("website"),
+      companyEmail: form.getValues("companyEmail"),
+      companyLogo: companyImage ?? "",
+      grossMargin: form.getValues("grossMargin"),
+      netProfitMargin: form.getValues("netProfitMargin"),
+      operatingMargin: form.getValues("operatingMargin"),
+      freeCashFlow: form.getValues("freeCashFlow"),
+      burnRate: form.getValues("burnRate"),
+      latestValuation: form.getValues("latestValuation"),
+      ebitda: form.getValues("ebitda"),
+      projectedValuation: form.getValues("projectedValuation"),
+      currentRevenue: form.getValues("currentRevenue"),
+      revenueIncreased: form.getValues("revenueIncreased"),
+      companyVerified: "false", // Example value (set this based on your logic)
+    });
 
-      toast("Company Registered Successfully", {
-        description: "You need to verify the company before raising funds.",
-        action: {
-          label: "Ok",
-          onClick: () => console.log("Company Registered"),
-        },
-      });
-      console.log(values);
-      console.log("Registered")
-    }
+    toast("Company Registered Successfully", {
+      description: "You need to verify the company before raising funds.",
+      action: {
+        label: "Ok",
+        onClick: () => console.log("Company Registered"),
+      },
+    });
+    console.log(values);
+    console.log("Registered")
   }
 
   return (
