@@ -47,7 +47,7 @@ const CheckoutPage = ({ amount }: { amount: number }) => {
       elements,
       clientSecret,
       confirmParams: {
-        return_url: `https://stack-surge.vercel.app/payment-success?amount=${amount}`,
+        return_url: `https://company.vercel.app/payment-success?amount=${amount}`,
       },
     });
 
