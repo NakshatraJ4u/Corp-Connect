@@ -94,7 +94,7 @@ const SelectRole = () => {
               <AlertDialogCancel>Cancel</AlertDialogCancel>
               <AlertDialogAction>
                 {" "}
-                <Link href={"/company"} >Continue </Link>
+                <Link href={"/company/dashboard"} >Continue </Link>
               </AlertDialogAction>
             </AlertDialogFooter>
           </AlertDialogContent>
