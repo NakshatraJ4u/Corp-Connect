@@ -177,7 +177,7 @@ const Page = () => {
                   <FormItem>
                     <FormLabel>Company Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="example : StackSurge" {...field} />
+                      <Input placeholder="example : Company's_Name" {...field} />
                     </FormControl>
                     <FormDescription>Specify your company name</FormDescription>
 
@@ -257,7 +257,7 @@ const Page = () => {
                     <FormLabel>Website</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="example : stack-surge.vercel.app"
+                        placeholder="example : corp-connect.vercel.app"
                         {...field}
                       />
                     </FormControl>
@@ -278,7 +278,7 @@ const Page = () => {
                     <FormControl>
                       <Input
                         type="email"
-                        placeholder="example : email@stacksurge.com"
+                        placeholder="example : email@company.com"
                         {...field}
                       />
                     </FormControl>
