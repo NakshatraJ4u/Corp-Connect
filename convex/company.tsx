@@ -59,7 +59,7 @@ export const getBusinessTypeCompany = query({
 
 export const getBusinessTypeStartup = query({
     handler: async (ctx) => {
-        return await ctx.db.query("company").filter((q)=>q.field("businessType")=="Start Up").collect();
+        return await ctx.db.query("company").collect();
     }
 })
 
