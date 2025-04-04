@@ -41,5 +41,5 @@ export async function middleware(request: NextRequest) {
 
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: ['/company/:path*','/investor/:path*','/select','/test', '/make-payment'],
+  matcher: ['/company/:path*','/investor/:path*','/select','/test', '/make-payment','/((?!api/|_next/|_static/|_vercel|[\w-]+\.\w+).*)'],
 };
